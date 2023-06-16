@@ -8,8 +8,12 @@ The adult income data set used here has a total number of 48,790 entries in the 
 
 # Correlations
 
-One of the findings was that hours per week workedated slighltly with the level of education of the individual. 
+One of the findings was that hours per week worked correlated slighltly with the level of education of the individual. A heatmap of all of the numerical column correlations can be seen below. Another one of the slightly more significant correlations was capital gains, which will end up being fairly significant as we move forward. 
 
 ![Correlation](corr.png)
+
+Below I have a figure showing how level of education relates to hours worked per week. 
+
+![Correlation](hourseducation.png)
 
 # Gradient Boosting Model

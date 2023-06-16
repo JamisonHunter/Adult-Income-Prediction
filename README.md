@@ -47,7 +47,7 @@ In order to find the model best suited for this data set, I ran three different 
 
 Below are listed the metrics for the machine learning model I selected. 
 
-        precision    recall  f1-score   support
+               precision    recall  f1-score   support
 
        <=50K       0.92      0.87      0.89      9700
         >50K       0.59      0.69      0.63      2498

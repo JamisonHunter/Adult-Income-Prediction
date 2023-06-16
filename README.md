@@ -44,3 +44,14 @@ Gender also can play a role in determining income but not as significantly as on
 # Gradient Boosting Model
 
 In order to find the model best suited for this data set, I ran three different machine learning algorithms and tuned them in order to achieve better results. These were the K Nearest Neighbors model, the Random Forest model, and the Gradient Boosting model. Ultimately, I found that the Gradient Boosting model achieved the best predictive results edging just ahead of the K Nearest Neighbors model. This model can achieve accuracy within roughly 16%. It scored nearly 100% on training data and about 83.6% on testing data. Overall, I would recommend this model when predicting the binary income of individuals. I do believe that this algorithm can be made even more efficient in time but even as it stands now, I would recommend deployment.
+
+Below are listed the metrics for the machine learning model I selected. 
+
+        precision    recall  f1-score   support
+
+       <=50K       0.92      0.87      0.89      9700
+        >50K       0.59      0.69      0.63      2498
+
+    accuracy                           0.84     12198
+    macro avg      0.75      0.78      0.76     12198
+    weighted avg   0.85      0.84      0.84     12198

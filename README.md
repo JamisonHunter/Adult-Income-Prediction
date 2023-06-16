@@ -39,4 +39,8 @@ With regard to race, certain correlations can be seen here too. Asians represent
 
 Gender also can play a role in determining income but not as significantly as one might think and only in certain cases. We can see below that there is a substantial spike in income between men and women after an education level of twelve. Prior to this; however, the data remains quite stable showing that lesser educated men and women generally make similar amounts of money. The real difference is once a certain educational threshold is reached in which mens' incomes increase significantly compared to womens' income.
 
+![Correlation](genderincome.png)
+
 # Gradient Boosting Model
+
+In order to find the model best suited for this data set, I ran three different machine learning algorithms and tuned them in order to achieve better results. These were the K Nearest Neighbors model, the Random Forest model, and the Gradient Boosting model. Ultimately, I found that the Gradient Boosting model achieved the best predictive results edging just ahead of the K Nearest Neighbors model. This model can achieve accuracy within roughly 16%. It scored nearly 100% on training data and about 83.6% on testing data. Overall, I would recommend this model when predicting the binary income of individuals. I do believe that this algorithm can be made even more efficient in time but even as it stands now, I would recommend deployment.

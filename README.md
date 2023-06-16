@@ -12,8 +12,19 @@ One of the findings was that hours per week worked correlated slighltly with the
 
 ![Correlation](corr.png)
 
-Below I have a figure showing how level of education relates to hours worked per week. 
+Below I have a figure showing how level of education relates to hours worked per week. We can see that an educational level of nine correlates with the average of working forty hours per week, which makes sense. Paired with this figure is a distribution of the level of education of the individuals sampled for this data set. Since most people are well within this educational level of nine, most people work forty hours per week. Based on the below figure, we can also see that high income earners generally work higher hours since income correlates with level of education.
 
 ![Correlation](hourseducation.png)
+![Correlation](education.png)
+
+It will be important to note for the rest of this report how significant the correlation between high income earners and capital gains is. Of course, this is not some kind of shocking realization but I will often be using capital gains as a kind of pseudo-proxy for high income, which I believe is a justifiable approach based on the below figure.
+
+![Correlation](incomecapitalgains.png)
+
+This leads to what I believe is quite a fascinating correlation with income. If we compare the above figure and the below figure, what do we see? The two look quite similar when both marital status and income are compared to capital gains. This correlation also exists even when capital gains is factored out in exchange for factors like education and age. Income and marital status have a strong correlation with married people often being high income earners.
+
+![Correlation](maritalstatuscapitalgains.png)
+
+Let's take a look at a few other correlations! 
 
 # Gradient Boosting Model

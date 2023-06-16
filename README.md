@@ -25,6 +25,18 @@ This leads to what I believe is quite a fascinating correlation with income. If 
 
 ![Correlation](maritalstatuscapitalgains.png)
 
-Let's take a look at a few other correlations! 
+Let's take a look at a few other correlations! We have already established the correlation that exists between level of education and high income; however, there is also a fairly significant comparison to be made with age where older individuals typically have higher wages than younger individuals; likely due to more work experience. Below it can be seen that high income roughly corresponds with being older.
+
+![Correlation](incomeage.png)
+
+The occupation of individuals can tell us a lot about where their income level might be. We can see below that having a profession speciality type job leads to having a high income with an executive managerial role not being too far behind, which makes sense. It's curious to note that the armed forces occupation has a massive error bar, which means there is high variance within that data. The lowest income earners seem to generally be jobs involved in transportation and cleaning.
+
+![Correlation](occupationcapitalgains.png)
+
+With regard to race, certain correlations can be seen here too. Asians represent the highest income earners overall with Blacks and Natives representing the lower incomes. White and Other occupy the middle of this data; however, the Other catagory has a massive error bar. Thus, I doubt that a racial status of Other corresponds to income very significantly. 
+
+![Correlation](racecapitalgains.png)
+
+Gender also can play a role in determining income but not as significantly as one might think and only in certain cases. We can see below that there is a substantial spike in income between men and women after an education level of twelve. Prior to this; however, the data remains quite stable showing that lesser educated men and women generally make similar amounts of money. The real difference is once a certain educational threshold is reached in which mens' incomes increase significantly compared to womens' income.
 
 # Gradient Boosting Model

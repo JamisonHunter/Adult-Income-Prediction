@@ -2,7 +2,7 @@
 
 The purpose of this notebook is to predict the income level of individuals using a machine learning algorithm. This algorithm will demonstrate insights with regard to what factors lead to which income level. The algorithm predicts two different levels of income. The first level is greater than 50,000 dollars per year. The second level is less than or equal to 50,000 dollars per year. From here, I will refer to these categories as being high income and low income respectively. Based on the below graph, we can see that low income represents a significantly larger portion of the target than high income. Therefore, any predictive algorithm should reach similar results.
 
-![Income](income.png)
+![Income](images/income.png)
 
 The adult income data set used here has a total number of 48,790 entries in the income column. Of these, 37,109 are low income and 11,681 are high income. This means that 79.1% are low income earners and 23.9% are high income earners. The algorithm that I use ought to end up fairly close to this.
 
@@ -10,36 +10,36 @@ The adult income data set used here has a total number of 48,790 entries in the 
 
 One of the findings was that hours per week worked correlated slighltly with the level of education of the individual. A heatmap of all of the numerical column correlations can be seen below. Another one of the slightly more significant correlations was capital gains, which will end up being fairly significant as we move forward. 
 
-![Correlation](corr.png)
+![Correlation](images/corr.png)
 
 Below I have a figure showing how level of education relates to hours worked per week. We can see that an educational level of nine correlates with the average of working forty hours per week, which makes sense. Paired with this figure is a distribution of the level of education of the individuals sampled for this data set. Since most people are well within this educational level of nine, most people work forty hours per week. Based on the below figure, we can also see that high income earners generally work higher hours since income correlates with level of education.
 
-![Correlation](hourseducation.png)
-![Correlation](education.png)
+![Correlation](images/hourseducation.png)
+![Correlation](images/education.png)
 
 It will be important to note for the rest of this report how significant the correlation between high income earners and capital gains is. Of course, this is not some kind of shocking realization but I will often be using capital gains as a kind of pseudo-proxy for high income, which I believe is a justifiable approach based on the below figure.
 
-![Correlation](incomecapitalgains.png)
+![Correlation](images/incomecapitalgains.png)
 
 This leads to what I believe is quite a fascinating correlation with income. If we compare the above figure and the below figure, what do we see? The two look quite similar when both marital status and income are compared to capital gains. This correlation also exists even when capital gains is factored out in exchange for factors like education and age. Income and marital status have a strong correlation with married people often being high income earners.
 
-![Correlation](maritalstatuscapitalgains.png)
+![Correlation](images/maritalstatuscapitalgains.png)
 
 Let's take a look at a few other correlations! We have already established the correlation that exists between level of education and high income; however, there is also a fairly significant comparison to be made with age where older individuals typically have higher wages than younger individuals; likely due to more work experience. Below it can be seen that high income roughly corresponds with being older.
 
-![Correlation](incomeage.png)
+![Correlation](images/incomeage.png)
 
 The occupation of individuals can tell us a lot about where their income level might be. We can see below that having a profession speciality type job leads to having a high income with an executive managerial role not being too far behind, which makes sense. It's curious to note that the armed forces occupation has a massive error bar, which means there is high variance within that data. The lowest income earners seem to generally be jobs involved in transportation and cleaning.
 
-![Correlation](occupationcapitalgains.png)
+![Correlation](images/occupationcapitalgains.png)
 
 With regard to race, certain correlations can be seen here too. Asians represent the highest income earners overall with Blacks and Natives representing the lower incomes. White and Other occupy the middle of this data; however, the Other catagory has a massive error bar. Thus, I doubt that a racial status of Other corresponds to income very significantly. 
 
-![Correlation](racecapitalgains.png)
+![Correlation](images/racecapitalgains.png)
 
 Gender also can play a role in determining income but not as significantly as one might think and only in certain cases. We can see below that there is a substantial spike in income between men and women after an education level of twelve. Prior to this; however, the data remains quite stable showing that lesser educated men and women generally make similar amounts of money. The real difference is once a certain educational threshold is reached in which mens' incomes increase significantly compared to womens' income.
 
-![Correlation](genderincome.png)
+![Correlation](images/genderincome.png)
 
 # Gradient Boosting Model
 

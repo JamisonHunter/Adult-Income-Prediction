@@ -1,4 +1,4 @@
-# Adult Income Predictions
+# Adult Income Prediction For Guidence Counselling
 
 The purpose of this notebook is to predict the income level of individuals using a machine learning algorithm. This algorithm will demonstrate insights with regard to what factors lead to which income level. The algorithm predicts two different levels of income. The first level is greater than 50,000 dollars per year. The second level is less than or equal to 50,000 dollars per year. From here, I will refer to these categories as being high income and low income respectively. Based on the below graph, we can see that low income represents a significantly larger portion of the target than high income. Therefore, any predictive algorithm should reach similar results.
 
